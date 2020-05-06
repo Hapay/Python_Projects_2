@@ -20,11 +20,11 @@ def reading_file(plik):
         lines.append(into_str[i:i + n])
     new_lines = '\n'.join(lines)
 
-    for elem in new_lines:
+    '''for elem in new_lines:
         if elem == ' ':
             elem.replace(" ", "")
-            openfile2.write(new_lines)
-        return new_lines
+            openfile2.write(new_lines)'''
+    return new_lines
 
 
 print(reading_file(openfile))
