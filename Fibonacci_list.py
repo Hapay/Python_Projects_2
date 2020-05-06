@@ -19,8 +19,8 @@ def fibo(num):
 
 
 # Using recursion statement
+nums = {}  # To musi byc tu, a nie w funkcji, bo inaczej bedzie sie wykonywac bardzo dlugo!
 def Fibonacci(n):
-    nums = {}
     if n <= 2:
         return 1
     if n in nums:
